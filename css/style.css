@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.container-logo{
+    background-image: url(../img/pattern.png);
+    background-color: rgb(69, 138, 242);
+    height: 170px;
+    
+}
+#logo{
+    width: 250px;
+    margin-top: 80px;
+}

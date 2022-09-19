@@ -1,17 +1,54 @@
 *{
     box-sizing: border-box;
-    margin: auto;
+    margin:auto;
+}
+body{
+    width: 1050px
 }
 .container-logo{
     background-image: url("../img/pattern.png");
     background-color: rgb(84, 163, 253);
     height: 80px;
-    background-size: 16%
+    background-size: 30%
 }
 #logo{
-    width: 130px;
-    margin: 40 5;
+    width: 150px;
+    margin: 35 5;
+}
+section{
+    margin-left: 5px;
+    margin-bottom: 20px;
 }
 #first-title{
     padding-top: 15px;
+}
+#big-title{
+    font-size: 37px;
+}
+.firma{
+    color: rgb(141, 141, 141);
+}
+#the_booleaner{
+    color: rgb(0, 208, 255);
+}
+main{
+    margin-left: 5px;
+}
+.photo-description{
+    font-style: italic;
+    font-size: small;
+    font-weight: 500;
+}
+#description{
+    padding-bottom: 20px;
+}
+.backgroundyellow{
+    background-color: yellow;
+}
+.list{
+    padding: 30 15;
+}
+thead{
+    color: white;
+    background-color: rgb(35, 181, 254);
 }

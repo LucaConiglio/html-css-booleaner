@@ -4,20 +4,31 @@
 }
 body{
     width: 1050px
+    margin auto
+}
+header{
+    margin: auto;
+    width: 50%;
 }
 .container-logo{
     background-image: url("../img/pattern.png");
     background-color: rgb(84, 163, 253);
     height: 80px;
-    background-size: 30%
+    background-size: 30%;
+    text-align: center;
+
+    
 }
 #logo{
     width: 150px;
-    margin: 35 5;
+    margin-top: 20px;
+    
+    
 }
 section{
-    margin-left: 5px;
-    margin-bottom: 20px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
 #first-title{
     padding-top: 15px;
@@ -32,7 +43,8 @@ section{
     color: rgb(0, 208, 255);
 }
 main{
-    margin-left: 5px;
+    margin: auto;
+    width: 50%;
 }
 .photo-description{
     font-style: italic;
@@ -41,16 +53,25 @@ main{
 }
 #description{
     padding-bottom: 20px;
+    text-align: center;
+}
+p{
+    width: 50%;
 }
 .backgroundyellow{
     background-color: yellow;
 }
 .list{
     padding: 30 15;
+    width: 50%;
+}
+table{
+    width: 50%;
 }
 thead{
     color: white;
     background-color: rgb(35, 181, 254);
+    
 }
 th{
     width: 25%;
@@ -65,26 +86,30 @@ table{
     padding-bottom: 30px;
 }
 footer{
-    margin-left: 5px;
+    width: 50%;
+    margin: auto;
     padding-top: 20px;
+    text-align: center;
+    align-items: center;
 }
 #grey{
     color: rgb(111, 111, 111);
     font-size: 20px;
+    text-align: center;
 }
 .computer{
-    margin: 10 5 0 0;
     width: 300px;
     height: 200px;
     background-image: url("../img/monitor.jpg");
     color: white;
     font-size: 30px;
+    text-align: center;
 }
 .dati{
-    margin: 10 5 0 0;
     width: 300px;
     height: 200px;
     background-image: url("../img/graph.jpg");
     color: white;
     font-size: 30px;
+    margin-top: 10px;
 }
